@@ -1,16 +1,16 @@
 import React from 'react'
-import "./header.css"
+import "./home.css"
 import CTA from "./CTA"
 import HeaderSocials from "./headerSocials"
 
 
-const Header = ({ theme }) => {
+const Home = ({ theme }) => {
   return (
     <header>
       <div className={theme === "dark" ? "text-dark" : "text-light"}>
         <h4>Hello<span className="emoji" >👋</span>  I'm </h4>
         <h1 id="user-detail-name">Ahamad Shaikh</h1>
-        <h3 className={theme === "dark" ? "text-dark" : "text-light"}>Full Stack Web Developer</h3>
+        <h3 id="user-detail-intro" className={theme === "dark" ? "text-dark" : "text-light"}>Full Stack Web Developer</h3>
         <CTA />
         <HeaderSocials />
 
@@ -27,4 +27,4 @@ const Header = ({ theme }) => {
   )
 }
 
-export default Header
+export default Home

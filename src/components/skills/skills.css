@@ -31,12 +31,12 @@
    row-gap: 2rem;
 }
 
-.skill_details {
+.skills-card {
    display: flex;
    gap: 1rem;
 }
 
-.skill_details-icon {
+.skills-card-icon {
    margin-top: 6px;
    /* color: var(--color-primary); */
 }
@@ -49,6 +49,18 @@
    color: white;
 }
 
+.skills-card-img{
+   width: 25px;
+   height: 25px;
+}
+
+.skill-container{
+   width: 120px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
 
 
 
@@ -59,7 +71,7 @@
    }
 
    .skill_container>div {
-      width: 90%;
+      width: 100%;
       padding: 2rem;
       margin: 0 auto;
    }

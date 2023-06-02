@@ -5,7 +5,7 @@ import { IoLogoTwitter } from "react-icons/io";
 // import { FiInstagram } from "react-icons/fi";
 import { BsFacebook } from "react-icons/bs";
 
-import "./header.css"
+import "./home.css"
 
 
 const HeaderSocials = () => {

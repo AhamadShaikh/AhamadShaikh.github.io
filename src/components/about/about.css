@@ -89,6 +89,14 @@
    color: white;
 }
 
+.text-light {
+   color: black;
+}
+
+.text-dark {
+   color: white;
+}
+
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
 @media screen and (max-width:1024px) {
    .about_container {

@@ -1,0 +1,88 @@
+.projects_container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2.5rem;
+
+}
+
+.project-card {
+   background: var(--color-bg-variant);
+   padding: 1.3rem;
+   border-radius: 2rem;
+   border: 1px solid transparent;
+   transition: var(--transition);
+
+
+}
+
+.project-card:hover {
+   border-color: var(--color-primary-variant);
+   background: black;
+
+}
+
+.project-card-image {
+   border-radius: 1.5rem;
+   overflow: hidden;
+   transform: rotate(0deg);
+   transition: var(--transition);
+}
+
+.project-card-image:hover {
+   transform: rotate(10deg);
+}
+
+.project-card h3 {
+   margin: 1.2rem 0 2rem;
+
+}
+
+.project_card-cta {
+   display: flex;
+   align-items: stretch;
+   gap: 1rem;
+   margin-bottom: 1rem;
+   margin-top: 10px;
+}
+
+.project-github-link{
+   border: 3px solid orange;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.project-deployed-link{
+   border: 3px solid orangered;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.text-dark{
+   color: white;
+}
+
+.text-light{
+   color: black;
+}
+
+
+
+/* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
+@media screen and (max-width:1024px) {
+
+   .projects_container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+   }
+
+
+}
+
+/* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
+@media screen and (max-width:600px) {
+
+   .projects_container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+   }
+}

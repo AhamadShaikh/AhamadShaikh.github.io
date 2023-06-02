@@ -3,9 +3,13 @@ import './App.css';
 import { Navbar } from './components/navbar/Navbar';
 import { useState } from 'react';
 import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Header from './components/header/Header'
+import Skills from './components/skills/Skills'
+import Home from './components/home/Home'
 import Nav from './components/nav/Nav'
+import Projects from './components/projects/Projects';
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer"
+import GitHubStats from './components/github/GitHubStats';
 
 function App() {
   const [theme, setTheme] = useState("dark")
@@ -21,10 +25,14 @@ function App() {
   return (
     <div className={theme === "light" ? "light-theme" : "dark-theme"}>
       <Navbar handleTheme={handleTheme} theme={theme} />
-      <Header theme={theme} />
+      <Home theme={theme} />
       <Nav />
       <About theme={theme} />
-      <Experience theme={theme} />
+      <Skills theme={theme} />
+      <Projects />
+      <GitHubStats/>
+      <Contact />
+      <Footer/>
     </div>
   );
 }

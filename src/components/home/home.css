@@ -71,6 +71,21 @@ header {
    justify-content: center;
    /* border: 1px solid red; */
    margin-bottom: 70vh;
+   text-align: center;
+   align-items: center;
+}
+
+.resume-link-2{
+   padding: 13px;
+   border-radius: 6px;
+   background-color: #4DB5FF;
+   color: black;
+}
+
+.resume-link-2:hover{
+   color: black;
+   background-color: white;
+   border: 1px solid black;
 }
 
 /* ========= HEADER SOCIALS ==========*/
