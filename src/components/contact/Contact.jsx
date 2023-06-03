@@ -5,7 +5,8 @@ import { RiMessengerLine } from "react-icons/ri";
 import { BsGithub } from "react-icons/bs";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser"
 
 
 
@@ -16,7 +17,15 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_d8gt4bg', 'template_ptqekti', form.current, 'R5UKAlTHsQqp16BE1')
+
+    emailjs.sendForm('service_y55bxmj', 'template_5paoagk', form.current, 'UFzl-SNK1BeO5uaaA')
+    .then(function(response) {
+       console.log(response.text);
+    }, function(error) {
+       console.log(error.text);
+    });
+
+    // emailjs.sendForm('service_d8gt4bg', 'template_ptqekti', form.current, 'R5UKAlTHsQqp16BE1')
 
     e.target.reset()
 
@@ -60,8 +69,8 @@ const Contact = () => {
         </div>
         {/* END OF CONTACT OPTION */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
+          <input type="text" name='user_name' placeholder='Your Full Name' required />
+          <input type="email" name='user_email' placeholder='Your Email' required />
           <textarea name="message" id="" cols="30" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>

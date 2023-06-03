@@ -1,9 +1,11 @@
 {
+  "homepage":"https://ahamadshaikh.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@react-icons/all-files": "^4.1.0",
@@ -16,6 +18,8 @@
     "netlify-cli": "^11.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^4.0.0",
+    "react-github-calender": "^1.1.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
@@ -23,6 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

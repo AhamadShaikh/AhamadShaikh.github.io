@@ -1,0 +1,94 @@
+.github-stats1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    align-items: center;
+    gap: 30px;
+} 
+
+#github-stats {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+#github-streak-stats {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+#github-top-langs {
+    width: 290px;
+    height: 300px;
+}
+
+#github-stats-card{
+    width: 800px;
+    height: 300px;
+    margin-left: 7%;
+    background-color: #282c34;
+}
+
+
+/* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
+@media screen and (max-width:1024px) {
+
+    .github-stats1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        align-items: center;
+        gap: 30px;
+    } 
+    
+    #github-stats {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        align-items: center;
+        margin-top: 10%;
+    }
+    #github-streak-stats {
+        width: 500px;
+        height: 300px;
+    }
+    
+    #github-top-langs {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    #github-stats-card{
+        width: 500px;
+        height: 300px;
+        margin: auto;
+    }
+ 
+ 
+ }
+ 
+ /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
+ @media screen and (max-width:600px) {
+ 
+    .github-stats1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        align-items: center;
+        gap: 30px;
+    } 
+    
+    #github-stats {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        align-items: center;
+        margin-top: 30%;
+    }
+ }

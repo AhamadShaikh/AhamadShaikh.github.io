@@ -98,7 +98,7 @@ input,textarea{
    border: 2px solid var(--color-primary-variant);
    resize: none;
    /* color: var(--color-white); */
-   color:green
+   color:white
 }
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/

@@ -4,6 +4,7 @@ import IMG1 from "../../assets/IMG1.png"
 import IMG2 from "../../assets/IMG2.png"
 import IMG3 from "../../assets/IMG3.png"
 import IMG4 from "../../assets/IMG4.png"
+import ProjectCard from './ProjectCard'
 
 const data = [
   {
@@ -46,21 +47,8 @@ const Projects = ({theme}) => {
 
       <div className="container projects_container">
         {
-          data.map(({ id, image, title, github, demo,tech_stack }) => {
-            return (
-              <article key={id} className="project-card">
-                <div className="project-card-image">
-                  <img src={image} alt="" />
-                </div>
-                <h3 className="project-title">{title}</h3>
-                <p className="project-description"></p>
-                <p className="project-tech-stack">{tech_stack}</p>
-                <div className="project_card-cta">
-                  <a href={github} className='project-github-link' target="_blank">Github</a>
-                  <a href={demo} className="project-deployed-link" target="_blank">Live Demo</a>
-                </div>
-              </article>
-            )
+          data.map((ele) => {
+            return <ProjectCard key={ele.id} {...ele} />
           })
         }
       </div>
