@@ -16,7 +16,7 @@ import { BsMoonFill } from 'react-icons/bs';
 //     )
 // }
 
-import {resume} from "../../assets/Ahamad-Shaikh-Resume.pdf" 
+import resume from "../../assets/Ahamad-Shaikh-Resume.pdf" 
 
 import React from "react";
 import { Link } from "react-scroll";

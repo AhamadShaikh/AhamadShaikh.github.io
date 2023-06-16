@@ -1,6 +1,6 @@
 import React from 'react'
 import "./home.css"
-import {resume} from "../../assets/Ahamad-Shaikh-Resume.pdf";
+import resume from "../../assets/Ahamad-Shaikh-Resume.pdf";
 
 const CTA = () => {
   return (
