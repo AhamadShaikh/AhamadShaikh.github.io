@@ -16,6 +16,8 @@ import { BsMoonFill } from 'react-icons/bs';
 //     )
 // }
 
+import {resume} from "../../assets/Ahamad-Shaikh-Resume.pdf" 
+
 import React from "react";
 import { Link } from "react-scroll";
 import { FaSun, FaMoon } from "react-icons/fa";
@@ -302,7 +304,7 @@ export const Navbar = ({handleTheme,theme}) => {
                 }}
             >
                 {" "}
-                <a id="resume-link-1" href="" download={"Ahamad-Shaikh-Resume"}>
+                <a id="resume-link-1" href={resume} download={"Ahamad-Shaikh-Resume"}>
                     <Button className="button nav-link resume">Resume</Button>
                 </a>
             </Box>

@@ -4,6 +4,10 @@
    gap: 15%;
 }
 
+#user-detail-intro{
+   color:gray
+}
+
 .about_me {
 
    border-radius: 2rem;

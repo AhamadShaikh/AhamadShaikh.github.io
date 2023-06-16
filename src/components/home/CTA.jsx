@@ -1,5 +1,6 @@
 import React from 'react'
 import "./home.css"
+import {resume} from "../../assets/Ahamad-Shaikh-Resume.pdf";
 
 const CTA = () => {
   return (
@@ -16,7 +17,7 @@ const CTA = () => {
       }}
     >
       {" "}
-      <a id="resume-link-2" href="https://drive.google.com/file/d/1is9F5UCUO1z3uppfyedD8HuOITFlC-XF/view?usp=drive_link" download={"Ahamad-Shaikh-Resume"}>
+      <a id="resume-link-2" href={resume} download={"Ahamad-Shaikh-Resume"}>
         <button className="button">Resume</button>
       </a>
     </div>

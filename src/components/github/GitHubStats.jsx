@@ -9,13 +9,13 @@ const GitHubStats = () => {
                     <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhamadShaikh&theme=windows-dark" alt="" id='github-streak-stats'/>
                 </div>
                 <div>
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhamadShaikh&theme=windows-dark" alt="" id="github-top-langs" />
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhamadShaikh&theme=windows-dark" alt="" id="github-top-langs" width={"500px"} />
                 </div>
-                <div>
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhamadShaikh&theme=windows-dark" alt="" id="github-streak-stats" />
-                </div>
+                {/* <div style={{width:"0px"}}>
+                    <img src="" alt="" id="github-top-langs" width={"0px"}/>
+                </div> */}
             </div>
-            <div>
+            <div id='git-calender'>
                 <GitHubCalendar username="AhamadShaikh"/>
             </div>
         </div>

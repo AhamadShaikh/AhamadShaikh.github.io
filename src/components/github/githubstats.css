@@ -12,17 +12,24 @@
     margin: auto;
     align-items: center;
     margin-top: 10%;
-    margin-left: 17%;
+    margin-left: 8%;
+}
+
+#git-calender{
+    width: 800px;
+    margin-top: 30px;
+    /* margin-left: 12%; */
+    background-color: black;
 }
 
 #github-streak-stats {
-    width: 500px;
+    /* width: 700px; */
     height: 300px;
     margin: auto;
 }
 
 #github-top-langs {
-    width: 290px;
+    width: 400px;
     height: 300px;
 }
 
@@ -52,9 +59,10 @@
         align-items: center;
         margin-top: 10%;
     }
-    #github-streak-stats {
-        width: 500px;
+    /* #github-streak-stats {
+        width: 700px;
         height: 300px;
+        margin: auto;
     }
     
     #github-top-langs {
@@ -62,19 +70,19 @@
         height: 300px;
         margin: auto;
         margin-bottom: 100px;
-    }
+    } */
     
-    #github-stats-card{
+    /* #github-stats-card{
         width: 500px;
         height: 300px;
         margin: auto;
-    }
+    } */
  
  
  }
  
  /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
- @media screen and (max-width:600px) {
+ @media screen and (max-width:700px) {
  
     .github-stats1 {
         display: grid;
@@ -90,5 +98,10 @@
         margin: auto;
         align-items: center;
         margin-top: 30%;
+    }
+    #github-streak-stats {
+        width: 200px;
+        height: 300px;
+        margin: auto;
     }
  }
