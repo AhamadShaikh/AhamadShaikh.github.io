@@ -1,5 +1,5 @@
 {
-  "homepage":"https://ahamadshaikh.github.io",
+  "homepage": "https://ahamadshaikh.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -23,12 +23,13 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "swiper": "^8.4.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

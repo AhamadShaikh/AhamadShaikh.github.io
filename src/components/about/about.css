@@ -81,11 +81,11 @@
    color: var(--color-light);
 }
 
-#text-light {
+.text-light {
    color: black;
 }
 
-#text-dark {
+.text-dark {
    color: white;
 }
 
@@ -95,6 +95,10 @@
 
 .text-dark {
    color: white;
+}
+
+#resume-button-2{
+   border: 1px solid skyblue;
 }
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/

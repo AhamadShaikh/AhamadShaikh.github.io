@@ -5,15 +5,18 @@ const GitHubStats = () => {
     return (
         <div id='github-stats'>
             <div className='github-stats1'>
-                <div id='github-streak-stats'>
-                    <img id="github-top-langs" src="https://github-readme-streak-stats.herokuapp.com/?user=AhamadShaikh&theme=windows-dark" alt="" />
+                <div>
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhamadShaikh&theme=windows-dark" alt="" id='github-streak-stats'/>
                 </div>
-                <div id="github-top-langs">
-                    <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhamadShaikh&theme=windows-dark" alt="" />
+                <div>
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhamadShaikh&theme=windows-dark" alt="" id="github-top-langs" />
+                </div>
+                <div>
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhamadShaikh&theme=windows-dark" alt="" id="github-streak-stats" />
                 </div>
             </div>
-            <div id="github-stats-card">
-                <GitHubCalendar id="github-top-langs"  username="AhamadShaikh"/>
+            <div>
+                <GitHubCalendar username="AhamadShaikh"/>
             </div>
         </div>
     )

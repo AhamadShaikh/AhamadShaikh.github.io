@@ -6,14 +6,13 @@ import HeaderSocials from "./headerSocials"
 
 const Home = ({ theme }) => {
   return (
-    <header>
+    <div id="home">
       <div className={theme === "dark" ? "text-dark" : "text-light"}>
         <h4>Hello<span className="emoji" >👋</span>  I'm </h4>
         <h1 id="user-detail-name">Ahamad Shaikh</h1>
-        <h3 id="user-detail-intro" className={theme === "dark" ? "text-dark" : "text-light"}>Full Stack Web Developer</h3>
+        <h3 className={theme === "dark" ? "text-dark" : "text-light"}>Full Stack Web Developer</h3>
         <CTA />
         <HeaderSocials />
-
 
         <div className="me">
           {/* <img src={ME1} alt="ME" /> */}
@@ -23,7 +22,7 @@ const Home = ({ theme }) => {
 
         <a href="#contact" className="scroll_down">Scroll Down ⟶</a>
       </div>
-    </header>
+    </div>
   )
 }
 

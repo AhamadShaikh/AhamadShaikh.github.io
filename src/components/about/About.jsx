@@ -15,7 +15,7 @@ const About = ({theme}) => {
       <div className="container about_container">
         {/* <div className="about_me"> */}
         <div className="about_me-image">
-          <img className='home-img' src={me2} alt="About Image" />
+          <img className='home-img' src={me2} alt="Ahamad Shaikh" />
         </div>
 
         <div className="about_content">
@@ -44,14 +44,14 @@ const About = ({theme}) => {
 
           </div>
 
-          <p id={theme === "dark" ? "text-dark" : "text-light"}>
+          <p id="user-detail-intro" className={theme === "dark" ? "text-dark" : "text-light"}>
             Frontend Developer with a background in design and development. I have a passion for creating
             clean and intuitive designs. I am a self-motivated and self-driven individual who is always
             looking for new challenges and opportunities.
 
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="https://drive.google.com/file/d/1is9F5UCUO1z3uppfyedD8HuOITFlC-XF/view?usp=drive_link" id='resume-button-2' target="_blank"> My Resume</a>
         </div>
       </div>
     </section>

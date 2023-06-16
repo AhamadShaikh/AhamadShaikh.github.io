@@ -26,7 +26,7 @@ function App() {
     <div className={theme === "light" ? "light-theme" : "dark-theme"}>
       <Navbar handleTheme={handleTheme} theme={theme} />
       <Home theme={theme} />
-      <Nav />
+      {/* <Nav /> */}
       <About theme={theme} />
       <Skills theme={theme} />
       <Projects />
