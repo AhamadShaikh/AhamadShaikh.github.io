@@ -9,7 +9,8 @@ import Nav from './components/nav/Nav'
 import Projects from './components/projects/Projects';
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer"
-import GitHubStats from './components/github/GitHubStats';
+// import GitHubStats from './components/github/GitHubStats';
+import {Github} from "../src/components/Github"
 
 function App() {
   const [theme, setTheme] = useState("dark")
@@ -26,11 +27,12 @@ function App() {
     <div className={theme === "light" ? "light-theme" : "dark-theme"}>
       <Navbar handleTheme={handleTheme} theme={theme} />
       <Home theme={theme} />
-      {/* <Nav /> */}
+      <Nav />
       <About theme={theme} />
       <Skills theme={theme} />
       <Projects />
-      <GitHubStats/>
+      {/* <GitHubStats/> */}
+      <Github/>
       <Contact />
       <Footer/>
     </div>

@@ -22,9 +22,9 @@ import postman from "../../assets/postman.png"
 
 const Skills = ({ theme }) => {
   return (
-    <section id="skills">
-      <h5 className={theme === 'dark' ? 'text-dark' : 'text-light'}>What Skills I Have</h5>
-      <h2>My Skills</h2>
+    <div id="skills">
+      <h5 className={theme === 'dark' ? 'text-dark' : 'text-light'}>My Skills</h5>
+      {/* <h2>My Skills</h2> */}
 
       <div className="container skill_container">
         <div className="skill-frontend">
@@ -117,7 +117,7 @@ const Skills = ({ theme }) => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

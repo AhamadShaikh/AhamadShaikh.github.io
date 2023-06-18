@@ -1,5 +1,5 @@
 // import React, { useState } from 'react'
-// import "./navbar.css"
+import "./navbar.css"
 import { BsMoonFill } from 'react-icons/bs';
 // import { Button } from "@chakra-ui/react"
 // export const Navbar = ({ handleTheme, theme }) => {
@@ -16,7 +16,9 @@ import { BsMoonFill } from 'react-icons/bs';
 //     )
 // }
 
-import resume from "../../assets/Ahamad-Shaikh-Resume.pdf" 
+
+
+import resume from "../../assets/Ahamad-Shaikh-Resume.pdf"
 
 import React from "react";
 import { Link } from "react-scroll";
@@ -32,10 +34,10 @@ import {
     DrawerOverlay,
     DrawerContent,
     DrawerBody,
-    useDisclosure,Button
+    useDisclosure, Button
 } from "@chakra-ui/react";
 
-export const Navbar = ({handleTheme,theme}) => {
+export const Navbar = ({ handleTheme, theme }) => {
     const { colorMode, toggleColorMode } = useColorMode();
     const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -64,14 +66,16 @@ export const Navbar = ({handleTheme,theme}) => {
         >
             {/* first */}
             <Box
-                display={{
-                    base: "block",
-                    sm: "block",
-                    md: "none",
-                    lg: "none",
-                    xl: "none",
-                    "2xl": "none",
-                }}
+                // breakpoints={{
+                //     base: "inline",
+                //     sm: "inline",
+                //     md: "inline",
+                //     lg: "none",
+                //     xl: "none",
+                //     "2xl": "none",
+                // }}
+                // display={"flex"}
+                id="nav1"
             >
                 <IconButton icon={<GiHamburgerMenu />} size={"sm"} onClick={onOpen} />
 
@@ -93,8 +97,8 @@ export const Navbar = ({handleTheme,theme}) => {
                                 <Text
                                     className="nav-link home"
                                     fontSize={"2xl"}
-                                    bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
-                                    bgClip="text"
+                                    // bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
+                                    // bgClip="text"
                                 >
                                     Home
                                 </Text>
@@ -151,14 +155,14 @@ export const Navbar = ({handleTheme,theme}) => {
             {/* second */}
             <Box
                 fontWeight={"extrabold"}
-                fontSize={{
-                    base: "2xl",
-                    sm: "2xl",
-                    md: "2xl",
-                    lg: "3xl",
-                    xl: "3xl",
-                    "2xl": "3xl",
-                }}
+                // fontSize={{
+                //     base: "2xl",
+                //     sm: "2xl",
+                //     md: "2xl",
+                //     lg: "3xl",
+                //     xl: "3xl",
+                //     "2xl": "3xl",
+                // }}
             // bgGradient="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
             // bgClip="text"
             >
@@ -170,15 +174,16 @@ export const Navbar = ({handleTheme,theme}) => {
                 w={"60%"}
                 align={"center"}
                 justify={"space-between"}
-            // display={{
-            //   base: "flex",
-            //   sm: "flex",
-            //   md: "flex",
-            //   lg: "flex",
-            //   xl: "flex",
-            //   "2xl": "flex",
-            // }}
-            // display={"flex"}
+                // breakpoints={{
+                //     base: "none",
+                //     sm: "none",
+                //     md: "none",
+                //     lg: "flex",
+                //     xl: "flex",
+                //     "2xl": "flex",
+                // }}
+                // display={"flex"}
+                id ="nav2"
             >
                 <Link to="home" spy={true} smooth={true}>
                     <Text
@@ -192,10 +197,8 @@ export const Navbar = ({handleTheme,theme}) => {
                             "2xl": "3xl",
                         }}
                         cursor={"pointer"}
-                    // _hover={{
-                    //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
-                    //   bgClip: "text",
-                    // }}
+                        // bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
+                        // bgClip="text"
                     >
                         Home
                     </Text>

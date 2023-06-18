@@ -4,9 +4,9 @@
    gap: 2rem;
 }
 
-#skills{
-   margin-top: 0px;
-}
+/* #skills{ */
+   /* margin-right:50%; */
+/* } */
 
 .skill_container>div {
    background: var(--color-bg-variant);

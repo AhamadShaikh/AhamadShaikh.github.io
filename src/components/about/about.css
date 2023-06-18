@@ -5,7 +5,8 @@
 }
 
 #user-detail-intro{
-   color:gray
+   color:gray;
+   margin-bottom: 0px;
 }
 
 .about_me {
@@ -125,9 +126,9 @@
       margin: auto;
    }
 
-   .about_content p {
+   /* .about_content p {
       margin: 1rem auto 1.5rem;
-   }
+   } */
 }
 
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
@@ -148,7 +149,7 @@
       text-align: center;
    }
 
-   .about_content p {
+   /* .about_content p {
       margin: 1.5rem 0;
-   }
+   } */
 }

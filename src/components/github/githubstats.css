@@ -1,4 +1,5 @@
 .github-stats1 {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
@@ -12,7 +13,7 @@
     margin: auto;
     align-items: center;
     margin-top: 10%;
-    margin-left: 8%;
+    /* margin-left: 8%; */
 }
 
 #git-calender{
@@ -36,7 +37,7 @@
 #github-stats-card{
     width: 800px;
     height: 300px;
-    margin-left: 7%;
+    /* margin-left: 7%; */
     background-color: #282c34;
 }
 

@@ -1,13 +1,19 @@
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1vh 4vh;
-    position: sticky;
+    /* padding: 1vh 4vh; */
+    /* position: sticky; */
     top: 0;
     backdrop-filter: blur(15px);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    z-index: 2;
+    /* z-index: 2; */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar h2 {
@@ -64,3 +70,25 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     z-index: 2;
 }
+
+
+/* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
+@media screen and (max-width:1024px) {
+    /* #nav{
+        display: none;
+    } */
+    #nav2{
+        display: inline;
+    }
+ }
+ 
+ /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
+ @media screen and (max-width:600px) {
+ 
+    /* #nav{ */
+        /* display: inline;
+    } */
+    #nav2{
+        display: none;
+    }
+ }
