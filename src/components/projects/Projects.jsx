@@ -42,7 +42,7 @@ const data = [
 const Projects = ({theme}) => {
   return (
     <section id="projects">
-      <h5 className={theme === "dark"? "text-dark":"text-light"}>My Recent Work</h5>
+      {/* <h5 className={theme === "dark"? "text-dark":"text-light"}>My Recent Work</h5> */}
       <h2>Projects</h2>
 
       <div className="container projects_container">

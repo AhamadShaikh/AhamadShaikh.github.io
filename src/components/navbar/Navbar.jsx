@@ -77,7 +77,7 @@ export const Navbar = ({ handleTheme, theme }) => {
                 // display={"flex"}
                 id="nav1"
             >
-                <IconButton icon={<GiHamburgerMenu />} size={"sm"} onClick={onOpen} />
+                {/* <IconButton icon={<GiHamburgerMenu />} size={"sm"} onClick={onOpen} /> */}
 
                 <Drawer placement={"top"} onClose={onClose} isOpen={isOpen}>
                     <DrawerOverlay />

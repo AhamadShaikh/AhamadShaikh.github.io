@@ -46,7 +46,7 @@ export const Github = () => {
           fontWeight={"bold"}
           mr={".6rem"} ml={'45%'}
           // bgGradient="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
-          // bgClip="text"
+           colorScheme="blue"
         >
           Github
         </Text>

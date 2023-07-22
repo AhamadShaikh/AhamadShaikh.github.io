@@ -4,6 +4,7 @@ import { AiOutlineHome } from "react-icons/ai"
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { GrProjects } from "react-icons/gr"
+import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 import { BiMessageSquareDetail } from "react-icons/bi"
 import { useState } from "react";
 import { Tooltip } from '@chakra-ui/react'
@@ -19,7 +20,8 @@ const Nav = () => {
         <a href="#about" className="nav-link.about" ><AiOutlineUser /></a>
         <a href="#skills" className="nav-link.skill" ><BiBook /></a>
         <a href="#contact" className="nav-link.contact" ><BiMessageSquareDetail /></a>
-        <a href="#projects" className="nav-link.projects" ><GrProjects/></a>
+        <a href="#projects" className="nav-link.projects" ><AiOutlineFundProjectionScreen/></a>
+        {/* <a href="#contact" className="nav-link.contact" ><AiOutlineFundProjectionScreen /></a> */}
         {/* <a href="#" onClick={() => setActiveNav('#nav-menu')} className={activeNav === "#nav-menu" ? "active" : ""}>
           <AiOutlineHome />
           </a>
