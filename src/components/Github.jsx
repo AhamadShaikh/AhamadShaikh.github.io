@@ -22,7 +22,7 @@ export const Github = () => {
   const { colorMode } = useColorMode();
 
   return (
-    <Box
+    <Box mt={'50px'}
       p={{
         base: "1rem 1rem",
         sm: "1rem 1rem",
@@ -44,7 +44,7 @@ export const Github = () => {
             "2xl": "4xl",
           }}
           fontWeight={"bold"}
-          mr={".6rem"}
+          mr={".6rem"} ml={'45%'}
           // bgGradient="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
           // bgClip="text"
         >

@@ -3,6 +3,7 @@ header {
    padding-top: 2rem;
    overflow: hidden;
    /* border: 1px solid red; */
+   border: none;
 }
 
 .header_container {
@@ -11,11 +12,20 @@ header {
    height: 100%;
    position: relative;
    border: 1px solid transparent;
+   border: none;
 }
 
 /* .text-light{
    margin-bottom: 100vh;
 } */
+
+.button {
+   padding: 5px;
+   color: white;
+   background-color: teal;
+   border-radius: 3px;
+   border: none;
+}
 
 
 /* ==================EMOJI================== */
@@ -25,6 +35,7 @@ header {
    animation: waving-hand 2.5s infinite;
    transform-origin: 70% 70%;
    display: inline-block;
+   border: none;
 }
 
 @keyframes waving-hand {
@@ -74,19 +85,22 @@ header {
    margin-bottom: 70vh;
    text-align: center;
    align-items: center;
+   border: none;
 }
 
-.resume-link-2{
+.resume-link-2 {
    padding: 13px;
    border-radius: 6px;
    background-color: #4DB5FF;
    color: black;
+   border: none;
 }
 
-.resume-link-2:hover{
+.resume-link-2:hover {
    color: black;
    background-color: white;
    border: 1px solid black;
+
 }
 
 /* ========= HEADER SOCIALS ==========*/
@@ -113,7 +127,8 @@ header {
    margin: auto;
 
 }
-.scroll_down:hover{
+
+.scroll_down:hover {
    color: black;
 }
 
@@ -170,6 +185,7 @@ header {
 
 
 }
+
 
 
 

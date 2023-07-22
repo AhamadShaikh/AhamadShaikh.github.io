@@ -82,13 +82,13 @@ const Skills = ({ theme }) => {
           <h3>Backend Developement</h3>
           <div className="skill_content">
 
-            {/* <article className='experience_details'>
+            <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
+                {/* <small className='text-light'>Experienced</small> */}
               </div>
-            </article> */}
+            </article>
 
             <article className="skills-card">
               <BsPatchCheckFill className='skill_details-icon' />

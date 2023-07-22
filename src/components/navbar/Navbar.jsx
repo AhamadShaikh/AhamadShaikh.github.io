@@ -66,14 +66,14 @@ export const Navbar = ({ handleTheme, theme }) => {
         >
             {/* first */}
             <Box
-                // breakpoints={{
-                //     base: "inline",
-                //     sm: "inline",
-                //     md: "inline",
-                //     lg: "none",
-                //     xl: "none",
-                //     "2xl": "none",
-                // }}
+                breakpoints={{
+                    base: "none",
+                    sm: "none",
+                    md: "none",
+                    lg: "none",
+                    xl: "none",
+                    "2xl": "none",
+                }}
                 // display={"flex"}
                 id="nav1"
             >
@@ -308,7 +308,7 @@ export const Navbar = ({ handleTheme, theme }) => {
             >
                 {" "}
                 <a id="resume-link-1" href={resume} download={"Ahamad-Shaikh-Resume"}>
-                    <Button className="button nav-link resume">Resume</Button>
+                    <Button className="button nav-link resume" >Resume</Button>
                 </a>
             </Box>
 

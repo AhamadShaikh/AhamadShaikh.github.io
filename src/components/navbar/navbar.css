@@ -47,7 +47,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px  solid gray;
+    border-bottom: 1px solid gray;
     align-items: center;
     padding: 1vh 4vh;
     position: sticky;
@@ -61,7 +61,7 @@
     color: black;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px  solid gray;
+    border-bottom: 1px solid gray;
     align-items: center;
     padding: 1vh 4vh;
     position: sticky;
@@ -71,24 +71,32 @@
     z-index: 2;
 }
 
+.resume{
+    padding: 5px;
+    color: white;
+    background-color: teal;
+    border-radius: 3px;
+}
+
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
-@media screen and (max-width:1024px) {
+@media screen and (min-width:601px)and (max-width:1024px) {
+
     /* #nav{
         display: none;
     } */
-    #nav2{
-        display: inline;
-    }
- }
- 
- /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
- @media screen and (max-width:600px) {
- 
-    /* #nav{ */
-        /* display: inline;
-    } */
-    #nav2{
+    #nav2 {
         display: none;
     }
- }
+}
+
+/* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
+@media screen and (max-width:600px) {
+
+    /* #nav{ */
+    /* display: inline;
+    } */
+    #nav2 {
+        display: none;
+    }
+}

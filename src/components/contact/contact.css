@@ -1,11 +1,11 @@
-.container.contact_container{
-   width:70%;
+.container.contact_container {
+   width: 70%;
    display: grid;
    grid-template-columns: 30% 58%;
    gap: 12%;
 }
 
-.contact_options{
+.contact_options {
    display: flex;
    flex-direction: column;
    gap: 1.2rem;
@@ -73,24 +73,26 @@
    margin-bottom: 0.5rem;
 }
 
-.contact_option a{
+.contact_option a {
    margin-top: 0.7rem;
    display: inline-block;
    font-size: 0.8rem;
 }
-a:hover{
+
+a:hover {
    color: aquamarine;
 }
 
 /* ================ FORM ================ */
 
-form{
+form {
    display: flex;
    flex-direction: column;
    gap: 1.2rem;
 }
 
-input,textarea{
+input,
+textarea {
    width: 100%;
    padding: 1.5rem;
    border-radius: 0.5rem;
@@ -98,20 +100,37 @@ input,textarea{
    border: 2px solid var(--color-primary-variant);
    resize: none;
    /* color: var(--color-white); */
-   color:white
+   color: white
 }
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
-@media screen and (max-width:1024px) {
- .container.contact_container {
-   grid-template-columns: 1fr;
-   gap: 2rem;
- }
+@media screen and (min-width:601px) and (max-width:1024px) {
+   .container.contact_container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+   }
 }
 
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
 @media screen and (max-width:600px) {
-.container.contact_container {
-   width: var(--container-width-sm);
+   .container.contact_container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      width: var(--container-width-sm);
+   }
 }
+
+@media screen and (min-width:1025px) {
+   #contact-email {
+      width: 280px;
+   }
+   #contact-github {
+      width: 280px;
+   }
+   #contact-phone {
+      width: 280px;
+   }
+   #contact-linkedin {
+      width: 280px;
+   }
 }
