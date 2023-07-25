@@ -71,7 +71,7 @@
     z-index: 2;
 }
 
-.resume{
+.resume {
     padding: 5px;
     color: white;
     background-color: teal;
@@ -85,9 +85,9 @@
     /* #nav{
         display: none;
     } */
-    #nav2 {
+    /* #nav2 {
         display: none;
-    }
+    } */
 }
 
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
