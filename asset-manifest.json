@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.28807720.css",
-    "main.js": "/static/js/main.8771746c.js",
+    "main.js": "/static/js/main.7a68d5b4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG4.png": "/static/media/IMG4.56bc1f938ce6c0127b98.png",
     "static/media/IMG2.png": "/static/media/IMG2.6dfaeadd46ab1e41367a.png",
     "static/media/IMG3.png": "/static/media/IMG3.181b2cf4f3f9ae64b8ac.png",
     "static/media/IMG1.png": "/static/media/IMG1.e21af227f655054eb0e3.png",
+    "static/media/IMG5.png": "/static/media/IMG5.737b1756d4949839c86e.png",
     "static/media/Ahamad-Shaikh-Resume.pdf": "/static/media/Ahamad-Shaikh-Resume.086c9fff6673bdf9e80d.pdf",
     "static/media/me2.jpg": "/static/media/me2.79c821ea28d68934fab5.jpg",
     "static/media/javaScript.png": "/static/media/javaScript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
     "main.28807720.css.map": "/static/css/main.28807720.css.map",
-    "main.8771746c.js.map": "/static/js/main.8771746c.js.map",
+    "main.7a68d5b4.js.map": "/static/js/main.7a68d5b4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28807720.css",
-    "static/js/main.8771746c.js"
+    "static/js/main.7a68d5b4.js"
   ]
 }
