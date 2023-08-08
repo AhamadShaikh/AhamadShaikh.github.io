@@ -73,9 +73,15 @@
 
 .resume {
     padding: 5px;
-    color: white;
-    background-color: teal;
+    /* color: black; */
+    background-color: #4DB5FF;
     border-radius: 3px;
+}
+
+.resume:hover {
+    padding: 5px;
+    /* color: white; */
+    border: 2px solid white;
 }
 
 
@@ -85,9 +91,9 @@
     /* #nav{
         display: none;
     } */
-    /* #nav2 {
+    #nav2 {
         display: none;
-    } */
+    }
 }
 
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/

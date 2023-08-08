@@ -18,7 +18,7 @@ const darkGithubStats = [
   },
 ];
 
-export const Github = () => {
+export const Github = ({theme}) => {
   const { colorMode } = useColorMode();
 
   return (
@@ -35,18 +35,20 @@ export const Github = () => {
       {/* first */}
       <Flex>
         <Text
-          fontSize={{
-            base: "3xl",
-            sm: "3xl",
-            md: "4xl",
-            lg: "4xl",
-            xl: "4xl",
-            "2xl": "4xl",
-          }}
+          // fontSize={{
+          //   base: "3xl",
+          //   sm: "3xl",
+          //   md: "4xl",
+          //   lg: "4xl",
+          //   xl: "4xl",
+          //   "2xl": "4xl",
+          // }}
           fontWeight={"bold"}
           mr={".6rem"} ml={'45%'}
           // bgGradient="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
-           colorScheme="blue"
+          fontSize={"22px"}
+          color={"#4DB5FF"}
+          mb={"30px"}
         >
           Github
         </Text>
@@ -67,7 +69,7 @@ export const Github = () => {
       </Flex>
 
       {/* second */}
-      {colorMode === "light"
+      {theme === "dark"
         ? lightGithubStats?.map((el, index) => (
             <GithubStats key={index} {...el} />
           ))

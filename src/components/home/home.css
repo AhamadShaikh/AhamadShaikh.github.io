@@ -21,10 +21,16 @@ header {
 
 .button {
    padding: 5px;
-   color: white;
-   background-color: teal;
+   color: black;
+   background-color:#4DB5FF;
    border-radius: 3px;
    border: none;
+}
+
+.button:hover{
+   border: 1px solid black;
+   color: white;
+   cursor: pointer;
 }
 
 

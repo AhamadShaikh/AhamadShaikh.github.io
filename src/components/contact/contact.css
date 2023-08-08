@@ -100,7 +100,8 @@ textarea {
    border: 2px solid var(--color-primary-variant);
    resize: none;
    /* color: var(--color-white); */
-   color: white
+   /* color: #4DB5FF; */
+   color:gray
 }
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/

@@ -7,11 +7,12 @@ import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { useRef } from 'react';
 // import emailjs from 'emailjs-com';
 import emailjs from "@emailjs/browser"
+import { color } from '@chakra-ui/react';
 
 
 
 
-const Contact = () => {
+const Contact = ({theme}) => {
   const form = useRef();
 
   const sendEmail = (e) => {

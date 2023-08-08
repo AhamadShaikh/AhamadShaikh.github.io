@@ -15,6 +15,16 @@
 
 }
 
+.project-github-link:hover{
+   background-color: #4DB5FF;
+   color: black;
+}
+
+.project-deployed-link:hover{
+   background-color: #4DB5FF;
+   color: black;
+}
+
 .project-card:hover {
    border-color: var(--color-primary-variant);
    background: black;

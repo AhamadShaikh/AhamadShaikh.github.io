@@ -1,6 +1,7 @@
 // import React, { useState } from 'react'
 import "./navbar.css"
-import { BsMoonFill } from 'react-icons/bs';
+import { BsMoonStarsFill } from 'react-icons/bs';
+import { BsSun } from 'react-icons/bs';
 // import { Button } from "@chakra-ui/react"
 // export const Navbar = ({ handleTheme, theme }) => {
 //     return (
@@ -50,6 +51,7 @@ export const Navbar = ({ handleTheme, theme }) => {
             align={"center"}
             justify={"space-between"}
             top={"0"}
+            bgColor={"#4DB5FF"}
             p={{
                 base: "0rem 1rem",
                 sm: "0rem 1rem",
@@ -59,10 +61,11 @@ export const Navbar = ({ handleTheme, theme }) => {
                 "2xl": "0rem 5rem",
             }}
             zIndex={"1"}
-            bg={colorMode === "light" ? "white" : "black"}
+            // bg={colorMode === "light" ? "white" : "black"}
             boxShadow={
                 "rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset"
             }
+            
         >
             {/* first */}
             <Box
@@ -97,8 +100,8 @@ export const Navbar = ({ handleTheme, theme }) => {
                                 <Text
                                     className="nav-link home"
                                     fontSize={"2xl"}
-                                    // bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
-                                    // bgClip="text"
+                                // bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
+                                // bgClip="text"
                                 >
                                     Home
                                 </Text>
@@ -155,16 +158,18 @@ export const Navbar = ({ handleTheme, theme }) => {
             {/* second */}
             <Box
                 fontWeight={"extrabold"}
-                // fontSize={{
-                //     base: "2xl",
-                //     sm: "2xl",
-                //     md: "2xl",
-                //     lg: "3xl",
-                //     xl: "3xl",
-                //     "2xl": "3xl",
-                // }}
+            // fontSize={{
+            //     base: "2xl",
+            //     sm: "2xl",
+            //     md: "2xl",
+            //     lg: "3xl",
+            //     xl: "3xl",
+            //     "2xl": "3xl",
+            // }}
             // bgGradient="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
             // bgClip="text"
+            fontSize={"25px"}
+            color={"black"}
             >
                 Ahamad Shaikh
             </Box>
@@ -183,7 +188,8 @@ export const Navbar = ({ handleTheme, theme }) => {
                 //     "2xl": "flex",
                 // }}
                 // display={"flex"}
-                id ="nav2"
+                id="nav2"
+                color={"white"}
             >
                 <Link to="home" spy={true} smooth={true}>
                     <Text
@@ -197,8 +203,12 @@ export const Navbar = ({ handleTheme, theme }) => {
                             "2xl": "3xl",
                         }}
                         cursor={"pointer"}
-                        // bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
-                        // bgClip="text"
+                    // bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
+                    // bgClip="text"
+                    color={"white"}
+                    _hover={{
+                        color:"black"
+                    }}
                     >
                         Home
                     </Text>
@@ -220,6 +230,10 @@ export const Navbar = ({ handleTheme, theme }) => {
                     //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
                     //   bgClip: "text",
                     // }}
+                    color={"white"}
+                    _hover={{
+                        color:"black"
+                    }}
                     >
                         About Me
                     </Text>
@@ -241,6 +255,10 @@ export const Navbar = ({ handleTheme, theme }) => {
                     //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
                     //   bgClip: "text",
                     // }}
+                    color={"white"}
+                    _hover={{
+                        color:"black"
+                    }}
                     >
                         Skills
                     </Text>
@@ -262,6 +280,10 @@ export const Navbar = ({ handleTheme, theme }) => {
                     //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
                     //   bgClip: "text",
                     // }}
+                    color={"white"}
+                    _hover={{
+                        color:"black"
+                    }}
                     >
                         Projects
                     </Text>
@@ -283,6 +305,10 @@ export const Navbar = ({ handleTheme, theme }) => {
                     //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
                     //   bgClip: "text",
                     // }}
+                    color={"white"}
+                    _hover={{
+                        color:"black"
+                    }}
                     >
                         Contact
                     </Text>
@@ -308,12 +334,14 @@ export const Navbar = ({ handleTheme, theme }) => {
             >
                 {" "}
                 <a id="resume-link-1" href={resume} download={"Ahamad-Shaikh-Resume"}>
-                    <Button className="button nav-link resume" >Resume</Button>
+                    <Button className="button nav-link resume" bg={"#4DB5FF"} fontSize={"16px"} border={"2px solid black"}>Resume</Button>
                 </a>
             </Box>
 
             {/* fifth */}
-            <BsMoonFill className='theme-change' onClick={handleTheme} h="20px" />
+            {
+                theme === "dark" ? <BsSun className='theme-change' onClick={handleTheme} style={{ fontSize: '25px' }} /> : <BsMoonStarsFill className='theme-change' onClick={handleTheme} style={{ fontSize: '25px',color:"black" }} />
+            }
         </Flex>
     );
 };

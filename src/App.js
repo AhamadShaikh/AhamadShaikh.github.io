@@ -32,8 +32,8 @@ function App() {
       <Skills theme={theme} />
       <Projects />
       {/* <GitHubStats/> */}
-      <Github/>
-      <Contact />
+      <Github theme={theme}/>
+      <Contact theme={theme}/>
       <Footer/>
     </div>
   );

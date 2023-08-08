@@ -1,5 +1,5 @@
 import React from "react";
-import { Center, Flex, Image, VStack } from "@chakra-ui/react";
+import { Center, Flex, Box, Image, VStack } from "@chakra-ui/react";
 import GitHubCalendar from "react-github-calendar";
 
 export const GithubStats = ({ img1, img2, img3 }) => {
@@ -21,7 +21,9 @@ export const GithubStats = ({ img1, img2, img3 }) => {
         }}
       >
         <Image src={img2} id="github-stats-card" />
-        <Image src={img3} id="github-streak-stats" />
+        <Box bg={"black"}>
+          <Image src={img3} id="github-streak-stats"  />
+        </Box>
       </Flex>
 
       <Center

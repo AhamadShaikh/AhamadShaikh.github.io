@@ -23,7 +23,7 @@ import postman from "../../assets/postman.png"
 const Skills = ({ theme }) => {
   return (
     <div id="skills">
-      <h5 className={theme === 'dark' ? 'text-dark' : 'text-light'}style={{fontSize:'20px'}}>My Skills</h5>
+      <h5 className={theme === 'dark' ? 'text-dark' : 'text-light'}style={{fontSize:'22px',color:"#4DB5FF",marginBottom:"30px"}}>My Skills</h5>
       {/* <h2>My Skills</h2> */}
 
       <div className="container skill_container">
