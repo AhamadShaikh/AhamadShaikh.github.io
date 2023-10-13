@@ -39,15 +39,17 @@ const About = ({ theme }) => {
             <article className='about_card'>
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>4 Completed</small>
+              <small>7 Completed</small>
             </article>
 
           </div>
 
           <p id="user-detail-intro" className={theme === "dark" ? "text-dark" : "text-light"}>
-            Frontend Developer with a background in design and development. I have a passion for creating clean and intuitive designs. I am a self-motivated and self-driven individual who is always looking for new challenges and opportunities.My proficiency in a wide range of programming languages, frameworks, and technologies using HTML,CSS,JavaScript,React,Redux,TypeScript,Node,Express and MongoDB allows me to tackle complex projects with ease and efficiency.
+            {/* Frontend Developer with a background in design and development. I have a passion for creating clean and intuitive designs. I am a self-motivated and self-driven individual who is always looking for new challenges and opportunities.My proficiency in a wide range of programming languages, frameworks, and technologies using HTML,CSS,JavaScript,React,Redux,TypeScript,Node,Express and MongoDB allows me to tackle complex projects with ease and efficiency. */}
+
+            Experienced Frontend Developer blending design expertise with technical proficiency. Passionate about crafting elegant, user-centric interfaces, I am a highly motivated professional seeking continuous growth through challenges and opportunities. Proficient in HTML, CSS, JavaScript, React, Redux, TypeScript, Node, Express, and MongoDB, I excel in efficiently managing intricate projects with a focus on clean and intuitive design solutions.
           </p>
-{/* 
+          {/* 
           <a href="https://drive.google.com/file/d/1is9F5UCUO1z3uppfyedD8HuOITFlC-XF/view?usp=drive_link" id='resume-button-2' target="_blank"> My Resume</a> */}
         </div>
       </div>

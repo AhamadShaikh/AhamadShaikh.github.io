@@ -14,6 +14,7 @@ import html from "../../assets/html.png"
 import css from "../../assets/css.png"
 import react from "../../assets/react.png"
 import redux from "../../assets/redux.png"
+import node from "../../assets/node.png"
 import git from "../../assets/git.png"
 import mongoDB from "../../assets/mongoDB.png"
 import postman from "../../assets/postman.png"
@@ -84,10 +85,14 @@ const Skills = ({ theme }) => {
 
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon' />
-              <div>
-                <h4>Node JS</h4>
+              {/* <div>
+                <h4>Node JS</h4> */}
                 {/* <small className='text-light'>Experienced</small> */}
-              </div>
+              {/* </div> */}
+              <div className='skill-container'>
+                  <h4 className="skills-card-name">Node.js</h4>
+                  <img className="skills-card-img" src={node} alt="" />
+                </div>
             </article>
 
             <article className="skills-card">

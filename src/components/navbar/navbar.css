@@ -16,6 +16,10 @@
     z-index: 1;
 }
 
+#nav-menu{
+    background-color: #4DB5FF;
+}
+
 .navbar h2 {
     font-style: normal;
     /* font-family: ; */
@@ -84,9 +88,13 @@
     border: 2px solid white;
 }
 
+.theme-change{
+    cursor: pointer;
+}
+
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
-@media screen and (min-width:601px)and (max-width:1024px) {
+@media screen and (min-width:481px)and (max-width:1024px) {
 
     /* #nav{
         display: none;
@@ -97,7 +105,7 @@
 }
 
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
 
     /* #nav{ */
     /* display: inline;

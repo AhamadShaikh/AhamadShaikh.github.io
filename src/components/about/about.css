@@ -1,13 +1,21 @@
-.about_container {
+/* .about_container {
    display: grid;
-   grid-template-columns: 35% 70%;
+   grid-template-columns: 35% 35%; */
    /* gap: 15%; */
-   margin-bottom: 50px;
+   /* margin-bottom: 50px;
+} */
+
+.about_container{
+   display: grid;
+   grid-template-columns: 35% 50%;
+   gap: 15%;
+   /* border: 1px solid red; */
 }
 
 #user-detail-intro{
    color:gray;
-   margin-bottom: 0px;
+   margin-bottom: 50px;
+   /* text-align: left; */
 }
 
 .about_me {
