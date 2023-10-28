@@ -65,22 +65,22 @@ export const Navbar = ({ handleTheme, theme }) => {
             boxShadow={
                 "rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset"
             }
-            
+
         >
             {/* first */}
             <Box
-                breakpoints={{
-                    base: "none",
-                    sm: "none",
+                display={{
+                    base: "block",
+                    sm: "block",
                     md: "none",
                     lg: "none",
                     xl: "none",
                     "2xl": "none",
                 }}
-                // display={"flex"}
-                // id="nav1"
+            // display={"flex"}
+            // id="nav1"
             >
-                <IconButton icon={<GiHamburgerMenu id="hamburger" bg={""} size={"27px"}/>}  onClick={onOpen} />
+                <IconButton icon={<GiHamburgerMenu id="hamburger" bg={""} size={"27px"} />} onClick={onOpen} />
 
                 <Drawer placement={"right"} onClose={onClose} isOpen={isOpen}>
                     <DrawerOverlay />
@@ -159,18 +159,18 @@ export const Navbar = ({ handleTheme, theme }) => {
             {/* second */}
             <Box
                 fontWeight={"extrabold"}
-            // fontSize={{
-            //     base: "2xl",
-            //     sm: "2xl",
-            //     md: "2xl",
-            //     lg: "3xl",
-            //     xl: "3xl",
-            //     "2xl": "3xl",
-            // }}
-            // bgGradient="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
-            // bgClip="text"
-            fontSize={"25px"}
-            color={"black"}
+                // fontSize={{
+                //     base: "2xl",
+                //     sm: "2xl",
+                //     md: "2xl",
+                //     lg: "3xl",
+                //     xl: "3xl",
+                //     "2xl": "3xl",
+                // }}
+                // bgGradient="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
+                // bgClip="text"
+                fontSize={"25px"}
+                color={"black"}
             >
                 Ahamad Shaikh
             </Box>
@@ -180,10 +180,10 @@ export const Navbar = ({ handleTheme, theme }) => {
                 w={"60%"}
                 align={"center"}
                 justify={"space-between"}
-                // breakpoints={{
+                // display={{
                 //     base: "none",
                 //     sm: "none",
-                //     md: "none",
+                //     md: "flex",
                 //     lg: "flex",
                 //     xl: "flex",
                 //     "2xl": "flex",
@@ -204,12 +204,12 @@ export const Navbar = ({ handleTheme, theme }) => {
                             "2xl": "3xl",
                         }}
                         cursor={"pointer"}
-                    // bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
-                    // bgClip="text"
-                    color={"white"}
-                    _hover={{
-                        color:"black"
-                    }}
+                        // bg="linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)"
+                        // bgClip="text"
+                        color={"white"}
+                        _hover={{
+                            color: "black"
+                        }}
                     >
                         Home
                     </Text>
@@ -227,14 +227,14 @@ export const Navbar = ({ handleTheme, theme }) => {
                             "2xl": "3xl",
                         }}
                         cursor={"pointer"}
-                    // _hover={{
-                    //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
-                    //   bgClip: "text",
-                    // }}
-                    color={"white"}
-                    _hover={{
-                        color:"black"
-                    }}
+                        // _hover={{
+                        //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
+                        //   bgClip: "text",
+                        // }}
+                        color={"white"}
+                        _hover={{
+                            color: "black"
+                        }}
                     >
                         About Me
                     </Text>
@@ -252,14 +252,14 @@ export const Navbar = ({ handleTheme, theme }) => {
                             "2xl": "3xl",
                         }}
                         cursor={"pointer"}
-                    // _hover={{
-                    //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
-                    //   bgClip: "text",
-                    // }}
-                    color={"white"}
-                    _hover={{
-                        color:"black"
-                    }}
+                        // _hover={{
+                        //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
+                        //   bgClip: "text",
+                        // }}
+                        color={"white"}
+                        _hover={{
+                            color: "black"
+                        }}
                     >
                         Skills
                     </Text>
@@ -277,14 +277,14 @@ export const Navbar = ({ handleTheme, theme }) => {
                             "2xl": "3xl",
                         }}
                         cursor={"pointer"}
-                    // _hover={{
-                    //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
-                    //   bgClip: "text",
-                    // }}
-                    color={"white"}
-                    _hover={{
-                        color:"black"
-                    }}
+                        // _hover={{
+                        //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
+                        //   bgClip: "text",
+                        // }}
+                        color={"white"}
+                        _hover={{
+                            color: "black"
+                        }}
                     >
                         Projects
                     </Text>
@@ -302,14 +302,14 @@ export const Navbar = ({ handleTheme, theme }) => {
                             "2xl": "3xl",
                         }}
                         cursor={"pointer"}
-                    // _hover={{
-                    //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
-                    //   bgClip: "text",
-                    // }}
-                    color={"white"}
-                    _hover={{
-                        color:"black"
-                    }}
+                        // _hover={{
+                        //   bgGradient: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
+                        //   bgClip: "text",
+                        // }}
+                        color={"white"}
+                        _hover={{
+                            color: "black"
+                        }}
                     >
                         Contact
                     </Text>
@@ -341,7 +341,7 @@ export const Navbar = ({ handleTheme, theme }) => {
 
             {/* fifth */}
             {
-                theme === "dark" ? <BsSun className='theme-change' onClick={handleTheme} style={{ fontSize: '25px' }} /> : <BsMoonStarsFill className='theme-change' onClick={handleTheme} style={{ fontSize: '25px',color:"black" }} />
+                theme === "dark" ? <BsSun className='theme-change' onClick={handleTheme} style={{ fontSize: '25px' }} /> : <BsMoonStarsFill className='theme-change' onClick={handleTheme} style={{ fontSize: '25px', color: "black" }} />
             }
         </Flex>
     );

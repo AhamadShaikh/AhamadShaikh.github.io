@@ -94,10 +94,10 @@
 
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
-@media screen and (min-width:481px)and (max-width:1024px) {
+@media screen and (min-width:481px)and (max-width:768px) {
 
     /* #nav{
-        display: none;
+        display: inline;
     } */
     #nav2 {
         display: none;
@@ -111,9 +111,9 @@
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
 @media screen and (max-width:480px) {
 
-    /* #nav{ */
-    /* display: inline;
-    } */
+     /* #nav{ 
+     display: inline;
+    }  */
     #nav2 {
         display: none;
     }
@@ -123,7 +123,7 @@
     }
 }
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:769px) {
 
     /* #nav{ */
     /* display: inline;
