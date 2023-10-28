@@ -18,7 +18,8 @@ import node from "../../assets/node.png"
 import git from "../../assets/git.png"
 import mongoDB from "../../assets/mongoDB.png"
 import postman from "../../assets/postman.png"
-
+import chakra from "../../assets/chakra.png"
+import express from "../../assets/express.png"
 
 
 const Skills = ({ theme }) => {
@@ -33,7 +34,7 @@ const Skills = ({ theme }) => {
           <div className="skill_content">
 
             <article className="skills-card">
-              <BsPatchCheckFill className='skill_details-icon' />
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
               <div className='skill-container'>
                 <h4 className="skills-card-name">HTML</h4>
                 <img className="skills-card-img" src={html} alt="" />
@@ -42,7 +43,7 @@ const Skills = ({ theme }) => {
             </article>
 
             <article className="skills-card">
-              <BsPatchCheckFill className='experience_details-icon' />
+              {/* <BsPatchCheckFill className='experience_details-icon' /> */}
               <div className='skill-container'>
                   <h4 className="skills-card-name">CSS</h4>
                   <img className="skills-card-img" src={css} alt="" />
@@ -50,7 +51,7 @@ const Skills = ({ theme }) => {
             </article>
 
             <article className="skills-card">
-              <BsPatchCheckFill className='skill_details-icon' />
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
                 <div className='skill-container'>
                   <h4 className="skills-card-name">JavaScript</h4>
                   <img className="skills-card-img" src={javaScript} alt="" />
@@ -59,7 +60,7 @@ const Skills = ({ theme }) => {
             </article>
 
             <article className="skills-card">
-              <BsPatchCheckFill className='skill_details-icon' />
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
               <div className='skill-container'>
                   <h4 className="skills-card-name">React</h4>
                   <img className="skills-card-img" src={react} alt="" />
@@ -67,10 +68,18 @@ const Skills = ({ theme }) => {
             </article>
 
             <article className="skills-card">
-              <BsPatchCheckFill className='skill_details-icon' />
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
               <div className='skill-container'>
                   <h4 className="skills-card-name">Redux</h4>
                   <img className="skills-card-img" src={redux} alt="" />
+                </div>
+            </article>
+
+            <article className="skills-card">
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
+              <div className='skill-container'>
+                  <h4 className="skills-card-name">Chakra UI</h4>
+                  <img className="skills-card-img" src={chakra} alt="" />
                 </div>
             </article>
 
@@ -84,7 +93,7 @@ const Skills = ({ theme }) => {
           <div className="skill_content">
 
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              {/* <BsPatchCheckFill className='experience_details-icon' /> */}
               {/* <div>
                 <h4>Node JS</h4> */}
                 {/* <small className='text-light'>Experienced</small> */}
@@ -96,7 +105,7 @@ const Skills = ({ theme }) => {
             </article>
 
             <article className="skills-card">
-              <BsPatchCheckFill className='skill_details-icon' />
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
               <div className='skill-container'>
                   <h4 className="skills-card-name">Git</h4>
                   <img className="skills-card-img" src={git} alt="" />
@@ -104,7 +113,7 @@ const Skills = ({ theme }) => {
             </article>
 
             <article className="skills-card">
-              <BsPatchCheckFill className='skill_details-icon' />
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
               <div className='skill-container'>
                   <h4 className="skills-card-name">Postman</h4>
                   <img className="skills-card-img" src={postman} alt="" />
@@ -112,10 +121,18 @@ const Skills = ({ theme }) => {
             </article>
 
             <article className="skills-card">
-              <BsPatchCheckFill className='skill_details-icon' />
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
               <div className='skill-container'>
                   <h4 className="skills-card-name">MongoDB</h4>
                   <img className="skills-card-img" src={mongoDB} alt="" />
+                </div>
+            </article>
+
+            <article className="skills-card">
+              {/* <BsPatchCheckFill className='skill_details-icon' /> */}
+              <div className='skill-container'>
+                  <h4 className="skills-card-name">Express.js</h4>
+                  <img className="skills-card-img" src={express} alt="" />
                 </div>
             </article>
 

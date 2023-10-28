@@ -78,11 +78,11 @@ export const Navbar = ({ handleTheme, theme }) => {
                     "2xl": "none",
                 }}
                 // display={"flex"}
-                id="nav1"
+                // id="nav1"
             >
-                {/* <IconButton icon={<GiHamburgerMenu />} size={"sm"} onClick={onOpen} /> */}
+                <IconButton icon={<GiHamburgerMenu id="hamburger" bg={""} size={"27px"}/>}  onClick={onOpen} />
 
-                <Drawer placement={"top"} onClose={onClose} isOpen={isOpen}>
+                <Drawer placement={"right"} onClose={onClose} isOpen={isOpen}>
                     <DrawerOverlay />
                     <DrawerContent>
                         <DrawerBody
@@ -94,7 +94,8 @@ export const Navbar = ({ handleTheme, theme }) => {
                                 xl: "2rem 5rem",
                                 "2xl": "2rem 5rem",
                             }}
-                            bg={colorMode === "light" ? "white" : "black"}
+                            mt={"80px"}
+                            bg={colorMode === "light" ? "white" : "#2C2C6C"}
                         >
                             <Link to="home" spy={true} smooth={true} onClick={onClose}>
                                 <Text

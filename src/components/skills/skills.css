@@ -55,15 +55,18 @@
 }
 
 .skills-card-img{
-   width: 25px;
-   height: 25px;
+   width:57px;
+   height: 55px;
+   margin-bottom: 15px;
+   background-image: none;
 }
 
 .skill-container{
    width: 120px;
    display: flex;
-   flex-direction: row;
+   flex-direction: column-reverse;
    justify-content: space-between;
+   margin-top: 30px;
 }
 
 

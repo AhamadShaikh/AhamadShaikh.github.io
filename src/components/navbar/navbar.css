@@ -102,6 +102,10 @@
     #nav2 {
         display: none;
     }
+    #hamburger{
+        display: inline;
+        background-color: #4DB5FF;
+    }
 }
 
 /* ================ MEDIA QUEERIES (SMALL DEVISES) ==============*/
@@ -111,6 +115,23 @@
     /* display: inline;
     } */
     #nav2 {
+        display: none;
+    }
+    #hamburger{
+        display: inline;
+        background-color: #4DB5FF;
+    }
+}
+
+@media screen and (min-width:1025px) {
+
+    /* #nav{ */
+    /* display: inline;
+    } */
+    /* #nav2 {
+        display: inline;
+    } */
+    #hamburger{
         display: none;
     }
 }
