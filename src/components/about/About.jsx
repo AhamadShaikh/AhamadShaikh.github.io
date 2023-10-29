@@ -25,7 +25,7 @@ const About = ({ theme }) => {
             <article className='about_card'>
               <FaGraduationCap className='about_icon' />
               <h5>Education</h5>
-              <small>BE Mech - 2022</small>
+              <small>B.E. (Mechanical Engg.) - 2022</small>
             </article>
 
             <article className='about_card'>

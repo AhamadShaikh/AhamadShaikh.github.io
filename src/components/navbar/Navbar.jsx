@@ -82,7 +82,7 @@ export const Navbar = ({ handleTheme, theme }) => {
             >
                 <IconButton icon={<GiHamburgerMenu id="hamburger" bg={""} size={"27px"} />} onClick={onOpen} />
 
-                <Drawer placement={"right"} onClose={onClose} isOpen={isOpen}>
+                <Drawer placement={"top"} onClose={onClose} isOpen={isOpen}>
                     <DrawerOverlay />
                     <DrawerContent>
                         <DrawerBody
@@ -96,6 +96,7 @@ export const Navbar = ({ handleTheme, theme }) => {
                             }}
                             mt={"80px"}
                             bg={colorMode === "light" ? "white" : "#2C2C6C"}
+                            id="nav1"
                         >
                             <Link to="home" spy={true} smooth={true} onClick={onClose}>
                                 <Text
@@ -329,7 +330,8 @@ export const Navbar = ({ handleTheme, theme }) => {
                 }}
                 onClick={() => {
                     window.open(
-                        "https://drive.google.com/file/d/1is9F5UCUO1z3uppfyedD8HuOITFlC-XF/view?usp=drive_link"
+                        // "https://drive.google.com/file/d/1is9F5UCUO1z3uppfyedD8HuOITFlC-XF/view?usp=drive_link"
+                        "https://drive.google.com/file/d/17-KcP46x3lGS-VdOBMb1y4I3AmUs2OEJ/view?usp=drive_link"
                     );
                 }}
             >

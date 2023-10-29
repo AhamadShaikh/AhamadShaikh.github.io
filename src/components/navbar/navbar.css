@@ -92,6 +92,15 @@
     cursor: pointer;
 }
 
+#nav1{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
 @media screen and (min-width:481px)and (max-width:768px) {
