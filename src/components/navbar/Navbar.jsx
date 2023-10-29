@@ -343,7 +343,7 @@ export const Navbar = ({ handleTheme, theme }) => {
 
             {/* fifth */}
             {
-                theme === "dark" ? <BsSun className='theme-change' onClick={handleTheme} style={{ fontSize: '25px' }} /> : <BsMoonStarsFill className='theme-change' onClick={handleTheme} style={{ fontSize: '25px', color: "black" }} />
+                theme === "dark" ? <FaSun className='theme-change' onClick={handleTheme} style={{ fontSize: '25px',marginRight:'10px' }} /> : <BsMoonStarsFill className='theme-change' onClick={handleTheme} style={{ fontSize: '25px', color: "black" }} />
             }
         </Flex>
     );
