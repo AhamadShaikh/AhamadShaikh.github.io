@@ -13,7 +13,7 @@ const CTA = () => {
       onClick={() => {
         window.open(
           // "https://drive.google.com/file/d/1is9F5UCUO1z3uppfyedD8HuOITFlC-XF/view?usp=drive_link"
-          "https://drive.google.com/file/d/17-KcP46x3lGS-VdOBMb1y4I3AmUs2OEJ/view?usp=drive_link"
+          "https://drive.google.com/file/d/1MuUcLHLWSEDWPRYLv1og7n5TahCzYBp5/view?usp=drive_link"
         );
       }}
     >
