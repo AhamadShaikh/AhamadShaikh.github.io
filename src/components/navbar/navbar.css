@@ -101,6 +101,10 @@
 
 }
 
+#hamburger{
+    padding-left:6px ;
+}
+
 
 /* ================ MEDIA QUEERIES (MEDIUM DEVISES) ==============*/
 @media screen and (min-width:481px)and (max-width:768px) {
