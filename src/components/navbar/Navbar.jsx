@@ -348,4 +348,3 @@ export const Navbar = ({ handleTheme, theme }) => {
         </Flex>
     );
 };
-
