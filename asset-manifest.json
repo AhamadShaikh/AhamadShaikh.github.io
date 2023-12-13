@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.989b47ed.css",
-    "main.js": "/static/js/main.e1b69d1b.js",
+    "main.js": "/static/js/main.6a9b2706.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG4.png": "/static/media/IMG4.56bc1f938ce6c0127b98.png",
     "static/media/IMG2.png": "/static/media/IMG2.6dfaeadd46ab1e41367a.png",
     "static/media/IMG3.png": "/static/media/IMG3.181b2cf4f3f9ae64b8ac.png",
     "static/media/IMG1.png": "/static/media/IMG1.e21af227f655054eb0e3.png",
     "static/media/IMG5.png": "/static/media/IMG5.737b1756d4949839c86e.png",
-    "static/media/Ahamad-Shaikh-Resume.pdf": "/static/media/Ahamad-Shaikh-Resume.1702cab5a77c3bb3352d.pdf",
+    "static/media/Ahamad-Shaikh-Resume.pdf": "/static/media/Ahamad-Shaikh-Resume.22c18c3bec6896273283.pdf",
     "static/media/Designer.gif": "/static/media/Designer.b658ecbbd46590b0f1eb.gif",
     "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
     "static/media/git.png": "/static/media/git.ba807a92d166b23e268e.png",
@@ -21,11 +21,11 @@
     "static/media/javaScript.png": "/static/media/javaScript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
     "main.989b47ed.css.map": "/static/css/main.989b47ed.css.map",
-    "main.e1b69d1b.js.map": "/static/js/main.e1b69d1b.js.map",
+    "main.6a9b2706.js.map": "/static/js/main.6a9b2706.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.989b47ed.css",
-    "static/js/main.e1b69d1b.js"
+    "static/js/main.6a9b2706.js"
   ]
 }
